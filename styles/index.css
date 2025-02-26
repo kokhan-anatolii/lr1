@@ -1,0 +1,97 @@
+#header {
+    text-align: center;
+    margin: 100px 350px;
+}
+
+#header h1 {
+    font-size: 42px;
+}
+
+#header p {
+    font-size: 20px;
+}
+
+#header-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.button-blue {
+    display: inline-block;
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 5px solid darkblue;
+
+}
+
+.button-blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#reviews-container {
+    text-align: center;
+}
+
+#reviews-container h1 {
+    font-size: 42px;
+}
+
+#reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.review {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review-img {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.review-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+
+.review-subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.review-quote {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#contact-us {
+    margin: 20px 0;
+    text-align: center;
+}
