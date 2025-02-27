@@ -1,0 +1,23 @@
+#projects-container {
+    text-align: center;
+    margin: 20px 100px;
+}
+#projects {
+    text-align: left;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project-image {
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+}
+
+.project-info {
+    margin-left: 20px;
+}
