@@ -3,8 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакти</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/contact-us.css">
 </head>
 <body>
-
+<nav>
+    <a class="navbar-link" href="index.html">Головна сторінка</a>
+    <a class="navbar-link" href="about-us.html">Про нас</a>
+    <a class="navbar-link" href="projects.html">Наші проекти</a>
+    <a class="navbar-link" href="services.html">Послуги</a>
+    <a class="navbar-link" href="contact-us.html">Контакти</a>
+</nav>
+<main>
+    <section id="contact-us">
+        <h1>Зв'яжіться з нами</h1>
+        <form>
+            <div class="form-element">
+                <label for="name">Ім'я</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-element">
+                <label for="message">Повідомлення</label>
+                <br>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <div class="form-element">
+                <button class="button-blue" type="submit">Відправити</button>
+            </div>
+        </form>
+    </section>
+</main>
 </body>
 </html>

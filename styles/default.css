@@ -5,3 +5,20 @@
 body {
     margin: 0;
 }
+
+.button-blue {
+    display: inline-block;
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 5px solid darkblue;
+    background: none;
+}
+
+.button-blue:hover {
+    background-color: darkblue;
+    color: white;
+}
