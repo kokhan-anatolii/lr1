@@ -11,6 +11,17 @@
     font-size: 20px;
 }
 
+#header p a {
+    text-decoration: none;
+    color: blue;
+}
+
+#header p a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
 #header-images {
     display: flex;
     justify-content: center;

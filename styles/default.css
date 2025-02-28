@@ -21,4 +21,5 @@ body {
 .button-blue:hover {
     background-color: darkblue;
     color: white;
+    cursor: pointer;
 }
