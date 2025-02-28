@@ -11,10 +11,10 @@ nav {
     font-size: 20px;
     text-decoration: none;
     padding: 20px 0;
+    transition-duration: 0.2s;
 }
 
 .navbar-link:hover {
     color: cornflowerblue;
     transform: scale(105%);
-    transition-duration: 0.2s;
 }

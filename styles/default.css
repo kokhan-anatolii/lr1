@@ -16,6 +16,7 @@ body {
     border-radius: 10px;
     border: 5px solid darkblue;
     background: none;
+    transition: 0.3s;
 }
 
 .button-blue:hover {

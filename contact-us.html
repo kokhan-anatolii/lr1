@@ -25,14 +25,19 @@
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-element">
-                <label for="email">Email</label>
+                <label for="email">Email <span>*</span></label>
                 <br>
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-element">
-                <label for="message">Повідомлення</label>
+                <label for="message">Повідомлення <span>*</span></label>
                 <br>
                 <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <div class="form-element">
+                <label for="file">Додайте файл (не обов'язково)</label>
+                <br>
+                <input type="file" name="file" id="file">
             </div>
             <div class="form-element">
                 <button class="button-blue" type="submit">Відправити</button>
