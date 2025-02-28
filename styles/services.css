@@ -1,0 +1,53 @@
+#services-container {
+    margin: 20px 100px;
+}
+
+#services-container h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#services-container h1 span {
+    color: cornflowerblue;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 10px;
+    color: white;
+}
+
+.service:hover {
+    transform: scale(1.02);
+}
+
+.service-info h2 {
+    font-size: 28px;
+}
+
+.service-image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.service-info {
+    margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+    #services {
+        grid-template-columns: 1fr;
+    }
+}
