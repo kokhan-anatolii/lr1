@@ -18,9 +18,7 @@
 
 #header p a:hover {
     text-decoration: underline;
-    color: blue;
 }
-
 
 #header-images {
     display: flex;
@@ -102,4 +100,67 @@
     padding: 20px 0;
     text-align: center;
     background-color: lightskyblue;
+}
+
+@media (max-width: 1200px) {
+    #header {
+        padding: 40px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        padding: 20px;
+    }
+
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #header p {
+        font-size: 16px;
+    }
+
+    #header-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #reviews {
+        flex-direction: column;
+    }
+
+    #contact-us h1 {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #header h1 {
+        font-size: 30px;
+    }
+
+    #header p {
+        font-size: 14px;
+    }
+
+    .review-title {
+        font-size: 18px;
+    }
+
+    .review-quote {
+        font-size: 14px;
+    }
+
+    #contact-us h1 {
+        font-size: 20px;
+    }
 }

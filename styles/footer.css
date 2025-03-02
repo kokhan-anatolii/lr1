@@ -24,3 +24,13 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 10px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+}
