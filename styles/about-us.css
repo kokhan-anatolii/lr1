@@ -1,0 +1,100 @@
+#about-container {
+    margin: 20px 100px;
+}
+
+#about-container h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#about-container h1 span {
+    color: cornflowerblue;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: dodgerblue;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-text ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.team-member {
+    background: dodgerblue;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    #about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 80%;
+    }
+
+    #team {
+        grid-template-columns: 1fr;
+    }
+}
