@@ -46,8 +46,53 @@
     margin-left: 20px;
 }
 
+@media (max-width: 1200px) {
+    #services-container {
+        margin: 20px 50px;
+    }
+
+    .service-info h2 {
+        font-size: 24px;
+    }
+
+    .service-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
 @media (max-width: 800px) {
     #services {
         grid-template-columns: 1fr;
+    }
+
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .service-info {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #services-container h1 {
+        font-size: 40px;
+    }
+
+    .service-info h2 {
+        font-size: 20px;
+    }
+
+    .service p {
+        font-size: 14px;
     }
 }
