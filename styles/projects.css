@@ -44,3 +44,62 @@
 .project-info {
     margin-left: 20px;
 }
+
+@media (max-width: 1200px) {
+    #projects-container {
+        margin: 20px 50px;
+    }
+
+    .project h2 {
+        font-size: 30px;
+    }
+
+    .project-image {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    #projects-container {
+        margin: 20px;
+    }
+
+    #projects-container h1 {
+        font-size: 40px;
+    }
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .project-info {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .project h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    #projects-container h1 {
+        font-size: 32px;
+    }
+
+    .project h2 {
+        font-size: 20px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+}
