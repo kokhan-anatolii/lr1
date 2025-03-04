@@ -72,9 +72,8 @@
     }
 
     .service-image {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
+        width: 300px;
+        height: 200px;
     }
 
     .service-info {
