@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="js/navbar.js" defer></script>
 </head>
 <body>
-<nav>
-    <a class="navbar-link" href="index.html">Головна сторінка</a>
-    <a class="navbar-link" href="about-us.html">Про нас</a>
-    <a class="navbar-link" href="projects.html">Наші проекти</a>
-    <a class="navbar-link" href="services.html">Послуги</a>
-    <a class="navbar-link" href="contact-us.html">Контакти</a>
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-logo">
+            <a class="navbar-link" href="index.html">Головна сторінка</a>
+        </div>
+        <div class="navbar-links" id="navbarLinks">
+            <a class="navbar-link" href="about-us.html">Про нас</a>
+            <a class="navbar-link" href="projects.html">Наші проекти</a>
+            <a class="navbar-link" href="services.html">Послуги</a>
+            <a class="navbar-link" href="contact-us.html">Контакти</a>
+        </div>
+        <div class="burger" id="burgerMenu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </div>
+    </div>
 </nav>
 <main>
     <section id="header">
@@ -77,6 +89,5 @@
         </div>
     </div>
 </footer>
-
 </body>
 </html>
