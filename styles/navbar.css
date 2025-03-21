@@ -14,7 +14,7 @@
 }
 .navbar-links {
     display: flex;
-    gap: 1rem;
+    gap: 30px;
 }
 .navbar-link {
     text-decoration: none;
@@ -55,6 +55,7 @@
     }
     .navbar-links.active {
         display: flex;
+        padding-bottom: 10px;
     }
     .burger {
         display: flex;
